@@ -1,0 +1,179 @@
+.ServiceBanner {
+    background-image: url(../Assets/servicebanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 6% 0;
+}
+
+.ServiceBanner h1 {
+    width: 12ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #00adef;
+    animation: text 5s steps(18) alternate, hideCursor 1s 6s forwards;
+}
+
+@keyframes text {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 12ch;
+    }
+}
+
+@keyframes hideCursor {
+    0% {
+        border-color: #00adef;
+    }
+
+    100% {
+        border-color: transparent;
+    }
+}
+
+.ServiceBanner h4 {
+    color: #00adef;
+    font-size: 32px;
+    margin-bottom: 5%;
+}
+
+.ServiceBanner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ServiceBanner span {
+    color: #00adef;
+}
+
+.ServiceBanner h1 {
+    color: #fff;
+    font-size: 4 3px;
+    font-weight: 600;
+}
+
+.ServiceBanner p {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+    width: 60%;
+    /* padding-right: 475px; */
+    /* margin: 41px 0 99px; */
+    margin: 5% 0;
+}
+
+.ServiceBanner .applyBtn {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10rem;
+    color: #00adef;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    font-weight: 500;
+    /* position: relative;
+    overflow: hidden;
+    z-index: 1; */
+}
+
+.ServiceBanner .applyBtn:hover {
+    background-color: #00adef;
+    color: white;
+}
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .ServiceBanner {
+        padding: 8% 0;
+        text-align: center;
+    }
+
+    .ServiceBanner h4 {
+        font-size: 25px;
+        margin-bottom: 6%;
+    }
+
+    .ServiceBanner h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .ServiceBanner p {
+        width: 100%;
+        font-size: 19px;
+        margin: 6% 0;
+    }
+
+    .ServiceBanner .applyBtn {
+        font-size: 0.90rem;
+        padding: 7px 15px;
+    }
+
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .ServiceBanner {
+        padding: 15% 0;
+        text-align: center;
+    }
+
+    .ServiceBanner h4 {
+        font-size: 24px;
+        margin-bottom: 12%;
+    }
+
+    .ServiceBanner h1 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .ServiceBanner p {
+        width: 100%;
+        font-size: 17px;
+        margin: 10% 0;
+        padding: 0 5%;
+    }
+
+    .ServiceBanner .applyBtn {
+        font-size: 0.90rem;
+        padding: 7px 15px;
+        margin: 5% 0;
+    }
+}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

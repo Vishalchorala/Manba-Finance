@@ -1,0 +1,71 @@
+.aboutBanner {
+    padding: 7%;
+    background-image: url(../Assets/aboutBanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aboutBanner h1 {
+    color: #00ADEF;
+    font-weight: 500;
+    font-size: 35px;
+    /* font-size: 4v; */
+    /* padding: 30px 0; */
+}
+
+.aboutBanner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* ----------Media Query---------- */
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+   
+    .aboutBanner h1{
+        padding: 55px 0;
+        font-size: 30px;
+        /* background-size: cover; */
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {  .aboutBanner h1{
+    padding: 55px 0;
+    font-size: 25px;
+    /* background-size: cover; */
+}}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .aboutBanner h1{
+        padding: 55px 0;
+        font-size: 20px;
+        /* background-size: cover; */
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

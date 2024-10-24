@@ -1,0 +1,144 @@
+.goldLoanAbout {
+    padding: 4% 0;
+    text-align: center;
+    background: #F1FAFE;
+}
+
+.goldLoanAbout h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+}
+
+.goldLoanAbout .goldLoanPara {
+    font-size: 20px;
+    font-weight: 600;
+    /* color: black; */
+    margin: 20px 0;
+}
+
+.goldLoanAbout h1 span {
+    color: #00ADEF;
+}
+
+.goldLoanContent {
+    padding: 6% 8% 0 8%;
+}
+
+.goldLoanContent img {
+    width: 100px;
+    transition: 0.4s all;
+}
+
+.goldLoanContent img:hover {
+    transform: translatey(-20px);
+}
+
+.goldLoanContent h3 {
+    color: #00ADEF;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.goldLoanContent p {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/*  Desktop 1600px    */
+@media (max-width: 1850px) {}
+
+/*  Desktop 1440px    */
+@media (max-width: 1440px) {}
+
+/*  Desktop 1280px    */
+@media (max-width: 1366px) {}
+
+/*  iPad 1024px    */
+@media (max-width: 1199px) {}
+
+/*  iPad 991px    */
+@media (max-width: 991px) {}
+
+/*  Iphone 767px   */
+@media (max-width: 767px) {
+    .goldLoanAbout h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .goldLoanAbout .goldLoanPara {
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .goldLoanContent img {
+        width: 90px;
+    }
+}
+
+.goldLoanContent h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.goldLoanContent p {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+/*  Mobile 375px    */
+@media (max-width: 375px) {
+    .goldLoanAbout h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+}
+
+/*  Mobile 360px    */
+@media (max-width: 360px) {}
+
+/*  Mobile 320px    */
+@media (max-width: 320px) {}
+
+/*  Iphone 567px   / */
+@media (max-width: 567px) {
+    .goldLoanAbout h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .goldLoanAbout  .goldLoanPara {
+        margin: 10px 0;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .goldLoanContent img {
+        width: 70px;
+    }
+
+    .goldLoanContent h3 {
+        margin: 10px 0;
+        font-size: 22px;
+    }
+
+    .goldLoanContent p {
+        font-size: 17px;
+        margin: 10px 0;
+    }
+}

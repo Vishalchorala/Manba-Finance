@@ -1,0 +1,127 @@
+.PersonalloanBanner {
+    padding: 15% 0;
+    background-image: url(../Assets/personalLoanBanner.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.PersonalloanBanner h3 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+.PersonalloanBanner h2 {
+    color: #00ADEF;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+.PersonalloanBanner p {
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .PersonalloanBanner {
+        padding: 17% 0;
+    }
+
+    .PersonalloanBanner h3 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.3;
+        text-transform: capitalize;
+    }
+
+    .PersonalloanBanner h2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .PersonalloanBanner {
+        padding: 19% 0;
+    }
+
+    .PersonalloanBanner h3 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 1.3;
+        text-transform: capitalize;
+    }
+
+    .PersonalloanBanner h2 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 1.1;
+    }
+}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .PersonalloanBanner {
+        padding: 20% 0;
+    }
+
+    .PersonalloanBanner h3 {
+        font-size: 30px;
+        line-height: 1.3;
+        margin-top: 50px;
+    }
+
+    .PersonalloanBanner h2 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .PersonalloanBanner p {
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

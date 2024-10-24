@@ -1,0 +1,115 @@
+.aboutValue {
+    background: #f1fafe;
+    padding: 6% 0;
+    box-shadow: 5px 1px 19px 0px rgba(0, 0, 0, 0.1);
+}
+
+.aboutValue .title h3 {
+    color: #00adef;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+}
+
+.aboutValuePara p {
+    color: #000;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 20px;
+}
+
+.aboutValueCreate {
+    padding-top: 4.5%;
+}
+
+.aboutValueCreate h3 {
+    color: #00adef;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutValueCreate p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23px;
+}
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {
+    .aboutValue .title h3 {
+        font-size: 35px;
+    }
+
+    .aboutValuePara p {
+        font-size: 18px;
+    }
+
+    .aboutValueCreate {
+        padding-top: 3%;
+    }
+
+    .aboutValueCreate h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .aboutValueCreate p {
+        font-size: 20px;
+    }
+}
+
+/* iPad 991px  */
+@media (max-width: 991px) {}
+
+/* Iphone 767px */
+@media (max-width: 767px) {.aboutValue .title h3 {
+    font-size: 33px;
+}
+
+.aboutValuePara p {
+    font-size: 17px;
+}
+
+.aboutValueCreate {
+    padding-top: 2%;
+}
+
+.aboutValueCreate h3 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.aboutValueCreate p {
+    font-size: 16px;
+}}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

@@ -1,0 +1,110 @@
+.businessLoanReason {
+    padding: 6% 0;
+    background: #f1fafe;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.businessLoanReason h1 {
+    font-size: 43px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.businessLoanReason p {
+    font-size: 21px;
+    text-align: center;
+    padding: 1% 5%;
+    margin-bottom: 4%;
+}
+
+.businessReasonContent {
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.businessReasonContent img {
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.businessReasonContent img:hover {
+    transform: scale(1.1);
+}
+
+.businessReasonContent p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 0 50px;
+}
+
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .businessLoanReason{
+        padding: 5% 0;
+    }
+    .businessLoanReason h1{
+        font-size: 35px;
+    }
+    .businessLoanReason p{
+        font-size: 20px;
+    }
+    .businessReasonContent p{
+        font-size: 17px;
+        margin: 20px 0 40px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .businessLoanReason{
+        padding: 5% 0;
+    }
+    .businessLoanReason h1{
+        font-size: 30px;
+    }
+    .businessLoanReason p{
+        font-size: 18px;
+    }
+    .businessReasonContent p{
+        font-size: 16px;
+        margin: 20px 0 40px;
+    }
+}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .businessReasonContent img {
+        width: 100%;
+        margin: 0 10px;
+        transition: all 0.4s;
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

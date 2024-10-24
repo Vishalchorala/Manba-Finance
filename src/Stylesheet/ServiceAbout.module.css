@@ -1,0 +1,146 @@
+.ServiceAbout {
+    padding: 7% 0;
+    background: #f1fafe;
+    text-align: center;
+}
+
+.flipBox {
+    border-radius: 25px;
+}
+
+.flipBox:hover .flipBack {
+    transform: scale(1.1);
+}
+
+.flipBox .flipBack {
+    /* width: 394px; */
+    /* height: 483px; */
+    padding: 19% 9%;
+    background-color: #00ADEF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.4s all;
+    overflow: hidden;
+    margin: 0 1%;
+    margin-bottom: 25px;
+}
+
+.flipBox .flipBack h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
+.flipBox .flipBack p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 20px;
+    /* margin: 50px 0; */
+}
+
+.flipBox .flipBack a {
+    border-radius: 20px;
+    background: #fff;
+    color: #00ADEF;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.4s all;
+    border: 2px solid #00ADEF;
+}
+
+.flipBox .flipBack a:hover {
+    background-color: #08c9bc;
+    color: white;
+    border: 2px solid white;
+    /* color: #ffffff; */
+}
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .flipBox .flipBack {
+        padding: 13% 5%;
+    }
+
+    .flipBox .flipBack h4 {
+        font-size: 24px;
+        margin: 40px 0;
+    }
+
+    .flipBox .flipBack p {
+        font-size: 19 px;
+        font-weight: 400;
+        padding: 0 20px;
+        /* margin: 50px 0; */
+    }
+
+    .flipBox .flipBack a {
+        padding: 10px 20px;
+        margin-top: 18px;
+        font-size: 16px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .flipBox .flipBack {
+        padding: 10% 5%;
+    }
+
+    .flipBox .flipBack h4 {
+        font-size: 23px;
+        margin: 40px 0;
+    }
+
+    .flipBox .flipBack p {
+        font-size: 17px;
+        font-weight: 400;
+        padding: 0 15px;
+        /* margin: 50px 0; */
+    }
+
+    .flipBox .flipBack a {
+        padding: 10px 15px;
+        margin-top: 18px;
+        font-size: 15px;
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

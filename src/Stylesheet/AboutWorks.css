@@ -1,0 +1,157 @@
+.aboutWorks {
+    padding: 5% 0 7%;
+}
+
+.aboutWorks h3 {
+    color: #00adef;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fastloan {
+    border-radius: 25px;
+    background: #2dbcf6;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.18);
+    padding: 6% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.fastloan img {
+    transition: 0.4s all;
+}
+
+.fastloan:hover img {
+    transform: scale(1.4);
+}
+
+.loanimg {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 85px;
+}
+
+.round {
+    border-radius: 80%;
+    background: #fff;
+    /* padding-left: 80px; */
+    width: 120px;
+    height: 120px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.fastloan h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.fastloan p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .aboutWorks h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .fastloan {
+        padding-top: 2%;
+    }
+
+    .loanimg {
+        height: 40px;
+        width: 40px;
+        top: 70px;
+    }
+
+    .round {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fastloan h3 {
+        font-size: 32px;
+        margin: 15px 0;
+    }
+
+    .fastloan p {
+        font-size: 16px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .aboutWorks h3 {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+
+    .fastloan {
+        padding-top: 1%;
+    }
+
+    .loanimg {
+        height: 30px;
+        width: 30px;
+        top: 60px;
+    }
+
+    .round {
+        width: 90px;
+        height: 90px;
+    }
+
+    .fastloan h3 {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+
+    .fastloan p {
+        font-size: 15px;
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

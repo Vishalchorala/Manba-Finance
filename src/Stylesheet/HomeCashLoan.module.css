@@ -1,0 +1,139 @@
+.HomeCashLoan {
+    padding: 9% 0;
+    background-image: url(../Assets/cashloanimg.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.leftContent img {
+    /* height: 550px; */
+    border-radius: 40px;
+    border: 10px solid #FEFEFE;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+/* .rightContent {
+    margin-left: px;
+} */
+
+.HomeCashLoan h3 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.HomeCashLoan span {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #00adef;
+}
+
+.HomeCashLoan p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.HomeCashLoan a {
+    background-color: #fff;
+    border: 3px solid #55a0e4;
+    padding: 5px 20px;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+.HomeCashLoan a:hover {
+    background-color: #00adef;
+    color: white;
+}
+
+
+
+
+
+/* -----Media query----- */
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .HomeCashLoan {
+        text-align: center;
+    }
+
+    .HomeCashLoan h3 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+
+    .HomeCashLoan span {
+        font-size: 22px;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+
+    .HomeCashLoan p {
+        font-size: 17px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .HomeCashLoan a {
+        font-size: 17px;
+        padding: 4px 15px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .HomeCashLoan {
+        text-align: center;
+    }
+
+    .HomeCashLoan h3 {
+        font-size: 23px;
+        margin-top: 5px;
+    }
+
+    .HomeCashLoan span {
+        font-size: 17px;
+        font-weight: 500;
+        margin: 5px 0;
+    }
+
+    .HomeCashLoan p {
+        font-size: 16px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
+    .HomeCashLoan a {
+        font-size: 17px;
+        padding: 3px 12px;
+    }
+}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}
