@@ -1,0 +1,94 @@
+.logo {
+    display: flex;
+    align-items: center;
+    /* font-family: serif; */
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #2A6EB3;
+    /* text-decoration:  none !important; */
+}
+
+.toggleBtn {
+    border: 2px solid #171742;
+    font-size: 22px;
+    text-align: center;
+    /* padding: 5px 10px; */
+}
+
+.navbar_Collapse ul li {
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar_Collapse ul li a {
+    color: #171742;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  * /
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  * /
+@media (max-width: 1199px) {}
+
+/* iPad 991px  * /
+@media (max-width: 991px) {}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .logo {
+        height: 60px;
+    }
+
+    .logo img {
+        width: 45px;
+    }
+
+    .logo h1 {
+        font-size: 19px;
+    }
+}
+
+/* Iphone 567px  * /
+@media (max-width: 567px) {}
+
+/* Mobile 375px  * /
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {
+    .logo h1 {
+        display: none;
+    }
+}

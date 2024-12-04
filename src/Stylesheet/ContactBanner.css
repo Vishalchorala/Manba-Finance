@@ -1,0 +1,35 @@
+.contactBanner {
+    background-image: url("../Assets/Contact-Us-Page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+}
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Ipad 991px */
+@media (max-width: 991px) {
+    .contactBanner{
+        padding: 25%;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .contactBanner{
+        padding: 28%;
+    }
+}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .contactBanner{
+        padding: 32%;
+    }
+}

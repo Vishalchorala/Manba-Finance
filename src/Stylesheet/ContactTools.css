@@ -1,0 +1,143 @@
+.contactTools {
+    padding: 6% 0;
+}
+
+.contactTools h2 {
+    color: #00adef;
+    font-family: Poppins;
+    font-size: 43px;
+    font-weight: 700;
+
+}
+
+.contactTools p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+}
+
+.contactTools-Boxes {
+    text-align: center;
+    padding: 17% 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
+}
+
+.contactTools-Boxes img {
+    width: 70px;
+    transition: all 0.4s;
+}
+
+.contactTools-Boxes img:hover {
+    transform: translateY(-20px);
+}
+
+.contactTools-Boxes h3 {
+    font-size: 23px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.contactTools-Boxes p {
+    margin: 0;
+    font-size: 17px;
+}
+
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {
+    .contactTools {
+        text-align: center;
+    }
+}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .contactTools h2 {
+        font-size: 35px;
+    }
+
+    .contactTools p {
+        font-size: 20px;
+        margin: 10px 10px 20px;
+    }
+
+    .contactTools-Boxes {
+        padding: 13% 0;
+    }
+
+    .contactTools img {
+        width: 60px;
+    }
+
+    .contactTools h3 {
+        margin: 13px 0;
+    }
+
+    .contactTools-Boxes p {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .contactTools h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .contactTools p {
+        font-size: 18px;
+        margin: 10px 10px 20px;
+    }
+
+    .contactTools-Boxes {
+        padding: 10% 0;
+    }
+
+    .contactTools img {
+        width: 60px;
+    }
+
+    .contactTools h3 {
+        margin: 13px 0;
+        font-size: 20px;
+    }
+
+    .contactTools-Boxes p {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

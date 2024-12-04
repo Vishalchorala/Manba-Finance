@@ -1,0 +1,454 @@
+.ServiceLoan {
+    padding: 7% 0;
+    text-align: center;
+    /* position: relative; */
+}
+
+.imgContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imgContent img {
+    width: 70%;
+}
+
+/* .ServiceLoan img {
+    position: relative;
+}
+
+.serviceImg img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+} */
+
+.imgContent h3 {
+    position: absolute;
+    font-size: 26px;
+}
+
+.personalLoan {
+    position: absolute;
+    text-align: center;
+    left: 80px;
+}
+
+.personalLoan p {
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.imgContent h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.businessLoan {
+    position: absolute;
+    top: -170px;
+}
+
+.businessLoan p {
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.goldLoan {
+    position: absolute;
+    right: 80px;
+}
+
+.goldLoan p {
+    padding: 0 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.homeLoan {
+    position: absolute;
+    bottom: -220px;
+}
+
+.homeLoan p {
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+}
+
+
+
+
+
+
+/* ----------Media Query---------- */
+
+
+/* Desktop 1600px  */
+@media (max-width: 1850px) {
+    .ServiceLoan {
+        padding: 15% 0;
+    }
+
+    .imgContent img {
+        width: 70%;
+    }
+
+    .personalLoan {
+        left: 20px;
+    }
+
+    .imgContent h4 {
+        font-size: 24px;
+    }
+
+    .goldLoan {
+        right: 50px;
+    }
+
+}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {
+    .ServiceLoan {
+        padding: 18% 0;
+    }
+}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {
+    .ServiceLoan {
+        padding: 4% 0 35% 0;
+        margin-bottom: 140px;
+    }
+
+    .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+    }
+
+    .personalLoan {
+        left: 116px;
+        bottom: -234px;
+    }
+
+    .personalLoan p {
+        padding: 0;
+        font-size: 19px;
+        width: 332px;
+    }
+
+    .imgContent h4 {
+        font-size: 24px;
+    }
+
+    .goldLoan {
+        /* position: relative; */
+        top: 540px;
+        right: 50px;
+        /* bottom: -234px; */
+
+    }
+
+    .businessLoan {
+        top: 750px;
+        right: 50px;
+    }
+
+    .homeLoan {
+        top: 750px;
+        left: 120px;
+    }
+
+}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .ServiceLoan {
+        padding: 7% 0 60% 0;
+        margin-bottom: 200px;
+    }
+
+    /* .imgContent img {
+        /* position: absolute; */
+
+    .imgContent h3 {
+        position: absolute;
+        font-size: 22px;
+    }
+
+    .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        bottom: -590px;
+    }
+
+    .personalLoan p {
+        padding: 0 32%;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .imgContent h4 {
+        font-size: 20px;
+    }
+
+    .businessLoan {
+        right: 0;
+        top: 620px;
+    }
+
+    .businessLoan p {
+        padding: 0 200px;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .goldLoan {
+        right: 0px;
+        top: 760px;
+    }
+
+    .goldLoan p {
+        padding: 0 200px;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .homeLoan {
+        left: 0;
+        top: 480px;
+    }
+
+    .homeLoan p {
+        padding: 0 200px;
+        width: 100%;
+        font-size: 17px;
+    }
+
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .ServiceLoan {
+        padding: 7% 0 52% 0;
+        margin-bottom: 150px;
+    }
+
+    /* .imgContent img {
+        /* position: absolute; */
+
+    .imgContent h3 {
+        position: absolute;
+        font-size: 22px;
+    }
+
+    .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 700px;
+    }
+
+    .personalLoan p {
+        padding: 0 20px;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .imgContent h4 {
+        font-size: 20px;
+    }
+
+    .businessLoan {
+        right: 0;
+        top: 480px;
+    }
+
+    .businessLoan p {
+        padding: 0 20px;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .goldLoan {
+        right: 0px;
+        top: 590px;
+    }
+
+    .goldLoan p {
+        padding: 0 20px;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .homeLoan {
+        left: 0;
+        top: 370px;
+    }
+
+    .homeLoan p {
+        padding: 0 20px;
+        width: 100%;
+        font-size: 17px;
+    }
+}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .ServiceLoan {
+        padding: 7% 0 12% 0;
+        margin-bottom: 520px;
+    }
+
+    /* .imgContent img {
+    /* position: absolute; */
+
+    .imgContent h3 {
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 720px;
+    }
+
+    .personalLoan p {
+        padding: 0 20px;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .imgContent h4 {
+        font-size: 20px;
+    }
+
+    .businessLoan {
+        right: 0;
+        top: 500px;
+    }
+
+    .businessLoan p {
+        padding: 0 20px;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .goldLoan {
+        right: 0px;
+        top: 610px;
+    }
+
+    .goldLoan p {
+        padding: 0 20px;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .homeLoan {
+        left: 0;
+        top: 390px;
+    }
+
+    .homeLoan p {
+        padding: 0 20px;
+        width: 100%;
+        font-size: 17px;
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {
+    .ServiceLoan {
+        padding: 7% 0 12% 0;
+        margin-bottom: 450px;
+    }
+
+    /* .imgContent img {
+    /* position: absolute; */
+
+    .imgContent h3 {
+        position: absolute;
+        font-size: 17px;
+    }
+
+    .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 620px;
+    }
+
+    .personalLoan p {
+        padding: 0 20px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .imgContent h4 {
+        font-size: 18px;
+    }
+
+    .businessLoan {
+        right: 0;
+        top: 390px;
+    }
+
+    .businessLoan p {
+        padding: 0 20px;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .goldLoan {
+        right: 0px;
+        top: 510px;
+    }
+
+    .goldLoan p {
+        padding: 0 20px;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .homeLoan {
+        left: 0;
+        top: 260px;
+    }
+
+    .homeLoan p {
+        padding: 0 20px;
+        width: 100%;
+        font-size: 17px;
+    }
+}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}

@@ -1,0 +1,271 @@
+.footer {
+    padding-top: 4%;
+    background: #212121;
+    color: #fff;
+}
+
+.footerLogo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footerLogo img {
+    width: 55.63px;
+    height: 64.377px;
+    flex-shrink: 0;
+}
+
+.footer h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 0 15px;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+.footer p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 100px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer span {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 60px 0 0;
+    padding-right: 50px;
+}
+
+.copyRight {
+    padding: 25px 0;
+    background: #fff;
+    color: #000;
+    margin-top: 3%;
+}
+
+.innerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyRight p {
+    padding: 0;
+    font-size: 17px;
+    margin: 0;
+}
+
+.copyRight span {
+    padding: 0;
+    margin: 0 0 0 10px;
+    font-size: 17px;
+}
+
+
+
+/* ----------Media Query---------- */
+
+/* Desktop 1600px  * /
+@media (max-width: 1850px) {}
+
+/* Desktop 1440px  */
+@media (max-width: 1440px) {}
+
+/* Desktop 1280px   */
+@media (max-width: 1366px) {}
+
+/* iPad 1024px  */
+@media (max-width: 1199px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footerContent {
+        flex-direction: column;
+    }
+
+    .footerlogo {
+        justify-content: center;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+        margin: 0 0 0 15px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .footer ul {
+        padding: 0;
+    }
+
+    .footer ul li {
+        display: block;
+    }
+
+    .footer ul li a {
+        font-size: 16px;
+        margin-bottom: 10;
+        text-align: center;
+    }
+
+    .footer h5 {
+        margin: 0 0 20px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .footer span {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0 20px 20px 0;
+    }
+
+    .address {
+        margin-bottom: 40px;
+    }
+
+    .copyRight p {
+        padding: 0;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .copyRight span {
+        padding: 0 10px;
+        margin: 15px 0 15px 10px;
+        font-size: 16px;
+    }
+}
+
+/* iPad 991px  */
+@media (max-width: 991px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footerLogo {
+        justify-content: center;
+    }
+
+    .footerLogin h4 {
+        margin-top: 20px;
+    }
+
+    .footer h5 {
+        margin: 0;
+    }
+
+    .footerLogin {
+        flex-direction: column;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 0 15px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 30px;
+        padding: 0 10%;
+    }
+
+    .footer ul {
+        padding: 0;
+    }
+
+    .footer ul li {
+        margin: 0;
+        height: 3.0rem;
+    }
+
+    .footer ul li a {
+        font-size: 16px;
+        /* margin-bottom: 10; */
+        text-align: center;
+    }
+
+    .copyRight p {
+        padding: 0;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .copyRight span {
+        padding: 0;
+        margin: 15px 0 15px 10px;
+        font-size: 16px;
+    }
+
+    .innerFooter {
+        flex-direction: column;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .footer ul li {
+        margin: 0;
+    }
+}
+
+/* Iphone 567px  */
+@media (max-width: 567px) {
+    .footer ul li {
+        margin: 0;
+    }
+}
+
+/* Mobile 375px  */
+@media (max-width: 375px) {
+    .footer ul li {
+        margin: 0;
+    }
+}
+
+/* Mobile 360px   */
+@media (max-width: 360px) {}
+
+/* Mobile 320px   */
+@media (max-width: 320px) {}
